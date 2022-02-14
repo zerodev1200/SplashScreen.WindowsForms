@@ -11,8 +11,19 @@
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<DebugType>none</DebugType>
 		<ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+		<Authors>zerodev1200</Authors>
+		<Description>Library to display splash screen in Winforms.</Description>
+		<PackageProjectUrl>https://github.com/zerodev1200/SplashScreen.WindowsForms</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 	<ItemGroup>
 		<Using Remove="System.Net.Http" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 </Project>

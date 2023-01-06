@@ -9,6 +9,7 @@ internal partial class SplashForm : Form
     private void SplashForm_Load(object sender, EventArgs e)
     {
         AppNameLabel.Text = Name;
+        AppVersionLabel.Text = (string)Tag;
     }
 
     private void AppExitLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

@@ -16,6 +16,7 @@
 		<PackageProjectUrl>https://github.com/zerodev1200/SplashScreen.WindowsForms</PackageProjectUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>1.1.0</Version>
 	</PropertyGroup>
 	<ItemGroup>
 		<Using Remove="System.Net.Http" />

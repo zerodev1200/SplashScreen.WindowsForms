@@ -23,7 +23,9 @@ private void MainForm_Load(object sender, EventArgs e)
 {
     var splasher = new Splasher("YourApplicationName");
     //Or
-    var splasher = new Splasher(new MySplashForm());
+    var splasher = new Splasher("YourApplicationName","v1.0.0");
+    //Or
+    var splasher = new Splasher(new YourSplashForm());
     
     splasher.Show();
     

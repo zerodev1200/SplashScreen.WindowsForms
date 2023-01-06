@@ -32,6 +32,7 @@ partial class SplashForm
             this.AppNameLabel = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.AppExitLinkLabel = new System.Windows.Forms.LinkLabel();
+            this.AppVersionLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // LoadingLabel
@@ -84,12 +85,24 @@ partial class SplashForm
             this.AppExitLinkLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.AppExitLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.AppExitLinkLabel_LinkClicked);
             // 
+            // AppVersionLabel
+            // 
+            this.AppVersionLabel.BackColor = System.Drawing.Color.Transparent;
+            this.AppVersionLabel.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AppVersionLabel.Location = new System.Drawing.Point(0, 192);
+            this.AppVersionLabel.Name = "AppVersionLabel";
+            this.AppVersionLabel.Size = new System.Drawing.Size(580, 25);
+            this.AppVersionLabel.TabIndex = 4;
+            this.AppVersionLabel.Text = " ";
+            this.AppVersionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // SplashForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(580, 360);
+            this.Controls.Add(this.AppVersionLabel);
             this.Controls.Add(this.AppExitLinkLabel);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.AppNameLabel);
@@ -113,4 +126,5 @@ partial class SplashForm
     private Label AppNameLabel;
     private ProgressBar progressBar1;
     private LinkLabel AppExitLinkLabel;
+    private Label AppVersionLabel;
 }

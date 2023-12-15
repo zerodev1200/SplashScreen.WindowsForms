@@ -3,7 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/dt/SplashScreen.WindowsForms.svg)](https://github.com/zerodev1200/SplashScreen.WindowsForms)  
 Library to display splash screen in Winforms.  
 
-TargetFrameworks:.NET6,.NetFramework4.8  
+TargetFrameworks:.NET8,.NET6,.NetFramework4.8  
   
 ![SplashScreen](https://user-images.githubusercontent.com/42404360/153868303-feaa8cd1-28fd-4df6-9221-16eb4f024cd2.jpg)
 

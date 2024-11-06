@@ -11,7 +11,7 @@ TargetFrameworks:.NET8,.NET6,.NetFramework4.8
 
 ### Install
 ```
-PM> Install-Package SplashScreen.WindowsForms
+dotnet add package SplashScreen.WindowsForms
 ```
 
 ### Getting Started
